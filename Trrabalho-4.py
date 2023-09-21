@@ -83,7 +83,7 @@ while True:
                             "4 - Sair\n"+
                             ">>")
     if (menu_principal == "1"):
-        codigoPeca = random.randint(1, 1000) #Caso ele cadastre a peça a variavel inicia do zera e atribui + 1
+        codigoPeca = random.randint(1001, 9999) #Caso ele cadastre a peça a variavel inicia do zera e atribui + 1
         cadastrarPeca(codigoPeca) #Aqui entra na função cadastrarPeca()
     elif (menu_principal == "2"):
         print("Você Selecionou a Opção consultar Peça")
